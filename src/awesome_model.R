@@ -2,6 +2,7 @@
 data(iris)
 
 MODEL_PATH = Sys.getenv("MODEL_PATH")
+print(paste0("MODEL_PATH: ", MODEL_PATH))
 
 # Build awesome model
 model = lm(Sepal.Length~Sepal.Width, data=iris)

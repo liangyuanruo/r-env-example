@@ -1,3 +1,8 @@
+# Environment
+
+# Create model folder if haven't
+mkdir -p model
+
 # Train your model and save to disk
-Rscript src/awesome_model.R
+Rscript --vanilla src/awesome_model.R
 
